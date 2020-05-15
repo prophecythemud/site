@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://prophecythemud.github.io/mud.prophecy.lu/"
 languageCode = "en-us"
 title = "Prophecy MUD"
 theme = "hugo-future-imperfect"
@@ -44,12 +44,12 @@ canonifyURLs = true
   socialShare          = true
   # Sets specific share to appear on posts (default behavior is to appear)
   socialShareTwitter   = true
-  socialShareGoogleplus = true
+  socialShareGoogleplus = false
   socialShareFacebook  = true
-  socialShareReddit    = true
-  socialShareLinkedin  = true
-  socialShareStumbleupon = true
-  socialSharePinterest = true
+  socialShareReddit    = false
+  socialShareLinkedin  = false
+  socialShareStumbleupon = false
+  socialSharePinterest = false
   socialShareEmail     = true
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
@@ -91,21 +91,18 @@ canonifyURLs = true
 
   paragraph = "''We don't need no stinking graphics''"
 
-  about     = "What year is this?"
+  about     = ""
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
     src       = "/img/main/avatar.png"
-  
+    # Sets Image to be a circle
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
     imperfect = false
-	 # Sets Image to be a circle
-    circle    = true
     width     = ""
     alt       = "Prophecy MUD Logo"
-	
-	
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -125,82 +122,82 @@ canonifyURLs = true
   identifier = "fa fa-id-card-o"
   weight = 2
   
- [[menu.main]]
+  [[menu.main]]
   name = "Resources"
   url = "/resources/"
   identifier = "fa fa-id-card-o"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Itemized"
   url = "/itemized/"
   identifier = "fa fa-list"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Categories"
   url = "/categories/"
   identifier = "fa fa-sitemap"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 7
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "jpescador/hugo-future-imperfect"
-  gitlab           = ""
-  stackoverflow    = "" # User Number
-  bitbucket        = ""
-  jsfiddle         = ""
-  codepen          = ""
+  github           = "/prophecymud"
+  # gitlab           = ""
+  # stackoverflow    = "" # User Number
+  # bitbucket        = ""
+  # jsfiddle         = ""
+  # codepen          = ""
   # Visual Art Communities
-  deviantart       = ""
-  flickr           = "example"
-  behance          = ""
-  dribbble         = ""
+  # deviantart       = ""
+  # flickr           = "example"
+ # behance          = ""
+  # dribbble         = ""
   # Publishing Communities
-  wordpress        = ""
-  medium           = ""
+  # wordpress        = ""
+ # medium           = ""
   # Professional/Business Oriented Communities
-  linkedin         = "example"
-  linkedin_company = "examplebusiness"
-  foursquare       = ""
-  xing             = ""
-  slideshare       = ""
+  # linkedin         = "example"
+  # linkedin_company = "examplebusiness"
+  # foursquare       = ""
+  # xing             = ""
+  # slideshare       = ""
   # Social Networks
-  facebook         = "example"
-  googleplus       = ""
-  reddit           = "example"
-  quora            = ""
-  youtube          = ""
-  vimeo            = ""
-  whatsapp         = "" # WhatsApp Number
+  facebook         = "https://www.facebook.com/groups/2482154268674674/"
+  # googleplus       = ""
+  # reddit           = "example"
+  # quora            = ""
+  # youtube          = ""
+  # vimeo            = ""
+  # whatsapp         = "" # WhatsApp Number
     # WeChat and QQ need testing.
-    wechat         = ""
-    qq             = "" # User ID Number
-  instagram        = "example"
-  tumblr           = ""
-  twitter          = "example"
-  skype            = ""
-  snapchat         = ""
-  pinterest        = "example"
-  telegram         = "example"
-  vine             = ""
-  googlescholar    = ""
-  orcid            = ""
-  researchgate     = "example"
+  #  wechat         = ""
+  #  qq             = "" # User ID Number
+  # instagram        = "example"
+  # tumblr           = ""
+  # twitter          = "example"
+  # skype            = ""
+  # snapchat         = ""
+  # pinterest        = ""
+  # telegram         = ""
+  # vine             = ""
+  # googlescholar    = ""
+  # orcid            = ""
+  # researchgate     = "example"
   # Email
-  email            = "example"
+  email            = "anheg@prophecy.lu"
